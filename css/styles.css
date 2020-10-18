@@ -2,13 +2,12 @@ body{
     font-family: 'Montserrat';
 }
 
-#title{
-    background-color: #FF4C68;
-    color: white;
+.container-fluid{
+    padding: 3% 15% 7%;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+.carousel-item{
+    padding: 7% 15%;
 }
 
 /*Download Buttons*/
@@ -16,11 +15,44 @@ body{
     margin: 5% 3% 5% 0;
 }
 
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-image{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.feature-image:hover{
+    color: #FF4C68;
+}
+
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /*Navigation Bar*/
@@ -35,7 +67,7 @@ h1{
 }
 
 .nav-item{
-   padding: 0 18px;
+    padding: 0 18px;
 }
 
 .nav-link{
@@ -44,36 +76,53 @@ h1{
     font-weight: lighter;
 }
 
-/*iPhone Image*/
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
-}
-
-h3{
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-#features{
-    padding: 7% 15%;
-}
-
-.feature-box{
-    text-align: center;
-    padding: 5%;
-}
-
 p{
     color: #8F8F8F;
 }
 
-.feature-image{
-    color: #EF8172;
-    margin-bottom: 1rem;
+#press{
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
-.feature-image:hover{
-    color: #FF4C68;
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*Testimonial Section*/
+#testimonials{
+    background-color: #EF8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#title{
+    background-color: #FF4C68;
+    color: white;
+}
+
+/*iPhone Image*/
+.title-image{
+    position: absolute;
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
 }
